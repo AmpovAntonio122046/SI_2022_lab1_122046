@@ -1,0 +1,54 @@
+4. git clone https://github.com/AmpovAntonio122046/SI_2022_lab1_122046.git
+5. echo "Banani" > shopping_list.txt
+   echo "Mleko" >> shopping_list.txt
+   echo "Voda" >> shopping_list.txt
+   echo "Leb" >> shopping_list.txt
+   echo "Jabolka" >> shopping_list.txt
+   git add shopping_list.txt
+   git commit -m "Add 5 items to the shopping list"
+	[master 8e2406d] Add 5 items to the shopping list
+ 	1 file changed, 5 insertions(+)
+ 	create mode 100644 shopping_list.txt
+
+6. echo "Banani x 2" > shopping_list.txt
+   echo "Mleko x 2" >> shopping_list.txt
+   echo "Voda x 2" >> shopping_list.txt
+   echo "Leb x 2" >> shopping_list.txt
+   echo "Jabolka x 2" >> shopping_list.txt
+	git add shopping_list.txt
+	git commit -m "Add quantities to the items"	
+	[master 7c40ddf] Add quantities to the items
+ 	1 file changed, 5 insertions(+), 5 deletions(-)	
+
+7. git branch branch1
+   git branch branch2
+9. git remote set-url origin https://AmpovAntonio122046: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@github.com/AmpovAntonio122046/SI_2022_lab1_122046.git
+   git push origin master
+	Enumerating objects: 7, done.
+	Counting objects: 100% (7/7), done.
+	Delta compression using up to 12 threads
+	Compressing objects: 100% (5/5), done.
+	Writing objects: 100% (6/6), 691 bytes | 691.00 KiB/s, done.
+	Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+	To https://github.com/AmpovAntonio122046/SI_2022_lab1_122046.git
+	95d720b..7c40ddf  master -> master
+
+   git push origin branch1
+   	Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+	remote:
+	remote: Create a pull request for 'branch1' on GitHub by visiting:
+	remote:      https://github.com/AmpovAntonio122046/SI_2022_lab1_122046/pull/new/branch1
+	remote:
+	To https://github.com/AmpovAntonio122046/SI_2022_lab1_122046.git
+ 	* [new branch]      branch1 -> branch1
+
+   git push origin branch2
+	Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+	remote:
+	remote: Create a pull request for 'branch2' on GitHub by visiting:
+	remote:      https://github.com/AmpovAntonio122046/SI_2022_lab1_122046/pull/new/branch2
+	remote:
+	To https://github.com/AmpovAntonio122046/SI_2022_lab1_122046.git
+	 * [new branch]      branch2 -> branch2
+
+22.
