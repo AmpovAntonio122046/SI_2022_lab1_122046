@@ -53,8 +53,5 @@
 
 22. git add Dokumentacija.txt
     git commit -m "Add docs"
-	[master ebf19fd] Add docs
- 	1 file changed, 54 insertions(+)
- 	create mode 100644 Dokumentacija.txt
 
-23.git push
+23. git push origin master
