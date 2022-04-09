@@ -51,4 +51,10 @@
 	To https://github.com/AmpovAntonio122046/SI_2022_lab1_122046.git
 	 * [new branch]      branch2 -> branch2
 
-22.
+22. git add Dokumentacija.txt
+    git commit -m "Add docs"
+	[master ebf19fd] Add docs
+ 	1 file changed, 54 insertions(+)
+ 	create mode 100644 Dokumentacija.txt
+
+23.git push
